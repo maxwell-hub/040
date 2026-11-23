@@ -20,6 +20,7 @@ on:
 
 permissions:
   contents: write          # record_sha 需要 push SHA 文件
+  actions: write
 
 # 防止定时任务与手动任务同时 push 冲突
 concurrency:
